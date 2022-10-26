@@ -1,0 +1,103 @@
+/*
+* {
+	border: 1px solid #ccc;
+	margin: 0;
+}
+*/
+
+:root {
+	--chakra-fonts-heading: Lora;
+	--chakra-fonts-body: Source Sans Pro;
+	--chakra-fonts-mono: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+	--chakra-fontSizes-xs: 0.75rem;
+	--chakra-fontSizes-sm: 0.875rem;
+	--chakra-fontSizes-md: 1rem;
+	--chakra-fontSizes-lg: 1.125rem;
+	--chakra-fontSizes-xl: 1.25rem;
+	--chakra-fontSizes-2xl: 1.5rem;
+	--chakra-fontSizes-3xl: 1.875rem;
+	--chakra-fontSizes-4xl: 2.25rem;
+	--chakra-fontSizes-5xl: 3rem;
+	--chakra-fontSizes-6xl: 3.75rem;
+	--chakra-fontSizes-7xl: 4.5rem;
+	--chakra-fontSizes-8xl: 6rem;
+	--chakra-fontSizes-9xl: 8rem;
+	--chakra-fontWeights-hairline: 100;
+	--chakra-fontWeights-thin: 200;
+	--chakra-fontWeights-light: 300;
+	--chakra-fontWeights-normal: 400;
+	--chakra-fontWeights-medium: 500;
+	--chakra-fontWeights-semibold: 600;
+	--chakra-fontWeights-bold: 700;
+	--chakra-fontWeights-extrabold: 800;
+	--chakra-fontWeights-black: 900;
+	--chakra-letterSpacings-tighter: -0.05em;
+	--chakra-letterSpacings-tight: -0.025em;
+	--chakra-letterSpacings-normal: 0;
+	--chakra-letterSpacings-wide: 0.025em;
+	--chakra-letterSpacings-wider: 0.05em;
+	--chakra-letterSpacings-widest: 0.1em;
+}
+body {
+	margin: 0;
+	font-family: var(--chakra-fonts-heading);
+	font-weight: var(--chakra-fontWeights-normal);
+	font-size: 36px;
+	line-height: 44px;
+	letter-spacing: var(--chakra-letterSpacings-tight);
+}
+
+nav {
+	display: flex;
+	height: 72px;
+	padding-inline: 25px;
+}
+
+
+.heading-login-to {
+	font-family: var(--chakra-fonts-heading);
+	font-weight: var(--chakra-fontWeights-normal);
+	font-size: 36px;
+	line-height: 44px;
+	letter-spacing: var(--chakra-letterSpacings-tight);
+}
+.heading-masterschool {
+	font-family: var(--chakra-fonts-heading);
+	font-weight: var(--chakra-fontWeights-normal);
+	font-size: 36px;
+	line-height: 44px;
+	letter-spacing: var(--chakra-letterSpacings-tight);
+	color: rgb(77, 117, 101);
+}
+.heading-campus {
+	font-family: var(--chakra-fonts-heading);
+	font-weight: var(--chakra-fontWeights-normal);
+	font-size: 36px;
+	line-height: 44px;
+	letter-spacing: var(--chakra-letterSpacings-tight);
+	color: rgb(77, 117, 101);
+}
+.welcome-titles {
+	display: flex;
+flex-direction: row;
+-moz-box-align: center;
+align-items: center;
+-moz-box-pack: center;
+justify-content: center;
+padding-bottom: 4px;
+}
+main {
+	display: flex;
+flex-direction: column;
+-moz-box-align: center;
+align-items: center;
+-moz-box-pack: center;
+justify-content: center;
+margin-top: 140px;
+}
+.underline-container {
+  padding-bottom: 20px;
+}
+.underline-container img {
+	display: block;
+}
